@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:charcoal"]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:itemlist/acquire/easy/charcoal"
+    }
+}

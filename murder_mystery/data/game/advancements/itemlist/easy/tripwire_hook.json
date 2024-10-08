@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:tripwire_hook"]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:itemlist/acquire/easy/tripwire_hook"
+    }
+}

@@ -1,0 +1,8 @@
+{
+	"replace": false,
+	"values": [
+		"ingame:main",
+        "ingame:shootingcd_tick",
+        "ingame:cleardietag_tick"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": ["tnt"]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:rewards/receive_tnt"
+    }
+}

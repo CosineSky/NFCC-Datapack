@@ -1,0 +1,1 @@
+execute as @e[tag=starting_spot,tag=spot_5] at @s run tp @a[limit=1,distance=30..,gamemode=adventure] @s

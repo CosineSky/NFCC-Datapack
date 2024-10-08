@@ -1,0 +1,1 @@
+kill @e[tag=particle_unit]

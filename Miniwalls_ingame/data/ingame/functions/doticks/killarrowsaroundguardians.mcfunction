@@ -1,0 +1,2 @@
+execute as @e[tag=miniwallsguardian] at @s run execute as @e[type=arrow,distance=..5] at @s run particle flame ~ ~ ~ 0 0 0 0.05 100 force
+execute as @e[tag=miniwallsguardian] at @s run kill @e[type=arrow,distance=..5]

@@ -1,0 +1,2 @@
+execute as @a unless score @s relog matches -2147483648..2147483647 run scoreboard players set @s relog 1
+execute as @a unless score @s total_score_hub matches -2147483648..2147483647 run scoreboard players set @s total_score_hub 0

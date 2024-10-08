@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:stone_bricks"]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:itemlist/acquire/easy/stone_bricks"
+    }
+}

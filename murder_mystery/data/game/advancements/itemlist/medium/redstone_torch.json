@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:redstone_torch"]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:itemlist/acquire/medium/redstone_torch"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                    "items": ["minecraft:ink_sac"]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:itemlist/acquire/easy/ink_sack"
+    }
+}

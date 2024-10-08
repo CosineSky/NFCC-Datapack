@@ -1,0 +1,2 @@
+scoreboard players set INGAME data 1
+give @a minecraft:wooden_sword{WoodenSword:1,HideFlags:63,CanDestroy:["#minecraft:breakable"],Unbreakable:1b,display:{Name:'{"text":"§f木剑"}',Lore:['{"text":"§7你最原始的武器！"}']}}

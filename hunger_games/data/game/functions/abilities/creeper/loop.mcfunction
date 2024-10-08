@@ -1,0 +1,1 @@
+execute as @e[tag=creeper_ability,nbt={AbsorptionAmount:0.1f}] at @s run particle minecraft:flame ~ ~1 ~ 0.1 0.1 0.1 0.1 2

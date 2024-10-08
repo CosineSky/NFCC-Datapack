@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "slime"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:gadgets/dash"
+    }
+}

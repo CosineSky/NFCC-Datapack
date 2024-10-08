@@ -1,0 +1,1 @@
+give @a minecraft:hay_block{CanPlaceOn:["#minecraft:placable"]} 64

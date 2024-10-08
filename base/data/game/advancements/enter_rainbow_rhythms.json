@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "zombie",
+                    "nbt": "{Tags:[\"enter_game\",\"rainbow_rhythms\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:rewards/enter_rainbow_rhythms"
+    }
+}

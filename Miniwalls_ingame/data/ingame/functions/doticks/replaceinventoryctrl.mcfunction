@@ -1,0 +1,1 @@
+execute if score MWHAVEEND data matches 0 run function ingame:doticks/replaceinventory

@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "zombie",
+                    "nbt": "{Tags:[\"enter_game\",\"escape_the_lab\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:rewards/enter_escape_the_lab"
+    }
+}

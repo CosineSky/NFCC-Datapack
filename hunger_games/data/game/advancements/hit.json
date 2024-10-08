@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_projectile": false
+                    },
+                    "entity": {
+                        "type": "player"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:rewards/hit"
+    }
+}

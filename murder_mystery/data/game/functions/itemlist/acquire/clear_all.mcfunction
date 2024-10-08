@@ -1,0 +1,2 @@
+function game:itemlist/acquire/clear_advancements
+function game:itemlist/acquire/clear_teamtag

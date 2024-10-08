@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "source_entity": {
+                            "type": "player"
+                        },
+                        "direct_entity": {
+                            "type": "arrow"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:rewards/hit_arrow"
+    }
+}

@@ -1,0 +1,23 @@
+item_en_ingame = ["arrow", "barrel", "birch_boat", "bone", "bowl", "campfire", "charcoal", "clay_ball", "cobbled_deepslate", "composter", "cooked_porkchop", "cut_sandstone", "dandelion", "feather", "fishing_rod", "flint", "flint_and_steel", "glass_bottle", "gunpowder", "ink_sac", "item_frame", "leather", "lightning_rod", "magenta_dye", "oak_trapdoor", "painting", "paper", "poppy", "raw_gold", "mutton", "rotten_flesh", "wheat_seeds", "shears", "smoker", "spider_eye", "stone_bricks", "stone_hoe", "string", "tripwire_hook", "wooden_shovel"]
+item_en = ["arrow", "barrel", "birch_boat", "bone", "bowl", "campfire", "charcoal", "clay_ball", "cobbled_deepslate", "composter", "cooked_porkchop", "cut_sandstone", "dandelion", "feather", "fishing_rod", "flint", "flint_and_steel", "glass_bottle", "gunpowder", "ink_sack", "item_frame", "leather", "lightning_rod", "magenta_dye", "oak_trapdoor", "painting", "paper", "poppy", "raw_gold", "raw_mutton", "rotten_flesh", "seed", "shears", "smoker", "spider_eye", "stone_bricks", "stone_hoe", "string", "tripwire_hook", "wooden_shovel"]
+item_cn = ["箭", "木桶", "白桦木船", "骨头", "碗", "营火", "木炭", "黏土球", "深板岩圆石", "堆肥桶", "熟猪排", "切制砂岩", "蒲公英", "羽毛", "钓鱼竿", "燧石", "打火石", "玻璃瓶", "火药", "墨囊", "物品展示框", "皮革", "避雷针", "品红色染料", "橡木活板门", "画", "纸", "虞美人", "粗金", "生羊肉", "腐肉", "小麦种子", "剪刀", "烟熏炉", "蜘蛛眼", "石砖", "石锄", "线", "绊线钩", "木铲"]
+
+for i in range(len(item_en)):
+    fw = open(item_en[i] + ".mcfunction", "w", encoding="utf-8")
+    fw.write('execute if entity @s[team=red] unless entity @e[tag=bingo_item,tag=' + item_en[i] + ',tag=red] run tellraw @a [{"text":">> ","bold":true},{"selector":"@s"},{"text":" 成功收集到了物品 - ","color":"yellow"},{"text":"' + item_cn[i] +'","color":"green"},{"text":"！","color":"yellow"}]\n\
+    execute if entity @s[team=blue] unless entity @e[tag=bingo_item,tag=' + item_en[i] + ',tag=blue] run tellraw @a [{"text":">> ","bold":true},{"selector":"@s"},{"text":" 成功收集到了物品 - ","color":"yellow"},{"text":"' + item_cn[i] + '","color":"green"},{"text":"！","color":"yellow"}]\n\
+    execute if entity @s[team=green] unless entity @e[tag=bingo_item,tag=' + item_en[i] + ',tag=green] run tellraw @a [{"text":">> ","bold":true},{"selector":"@s"},{"text":" 成功收集到了物品 - ","color":"yellow"},{"text":"' + item_cn[i] + '","color":"green"},{"text":"！","color":"yellow"}]\n\
+    execute if entity @s[team=yellow] unless entity @e[tag=bingo_item,tag=' + item_en[i] + ',tag=yellow] run tellraw @a [{"text":">> ","bold":true},{"selector":"@s"},{"text":" 成功收集到了物品 - ","color":"yellow"},{"text":"' + item_cn[i] + '","color":"green"},{"text":"！","color":"yellow"}]\n\n\
+    execute if entity @s[team=red] unless entity @e[tag=bingo_item,tag=' + item_en[i] + ',tag=red] as @a at @s run playsound minecraft:entity.player.levelup master @s ~ ~ ~ 1 1.14514\n\
+    execute if entity @s[team=blue] unless entity @e[tag=bingo_item,tag=' + item_en[i] + ',tag=blue] as @a at @s run playsound minecraft:entity.player.levelup master @s ~ ~ ~ 1 1.14514\n\
+    execute if entity @s[team=green] unless entity @e[tag=bingo_item,tag=' + item_en[i] + ',tag=green] as @a at @s run playsound minecraft:entity.player.levelup master @s ~ ~ ~ 1 1.14514\n\
+    execute if entity @s[team=yellow] unless entity @e[tag=bingo_item,tag=' + item_en[i] + ',tag=yellow] as @a at @s run playsound minecraft:entity.player.levelup master @s ~ ~ ~ 1 1.14514\n\n\
+    execute if entity @s[team=red] run tag @e[tag=bingo_item,tag=' + item_en[i] + '] add red\n\
+    execute if entity @s[team=blue] run tag @e[tag=bingo_item,tag=' + item_en[i] + '] add blue\n\
+    execute if entity @s[team=green] run tag @e[tag=bingo_item,tag=' + item_en[i] + '] add green\n\
+    execute if entity @s[team=yellow] run tag @e[tag=bingo_item,tag=' + item_en[i] + '] add yellow\n\n\
+    execute if entity @s[team=red] run execute as @e[tag=bingo_table_entry,tag=red] if entity @s[nbt={item:{id:"minecraft:' + item_en_ingame[i] + '"}}] run data merge entity @s {item:{id:"minecraft:carrot_on_a_stick",Count:1b}}\n\
+    execute if entity @s[team=blue] run execute as @e[tag=bingo_table_entry,tag=blue] if entity @s[nbt={item:{id:"minecraft:' + item_en_ingame[i] + '"}}] run data merge entity @s {item:{id:"minecraft:carrot_on_a_stick",Count:1b}}\n\
+    execute if entity @s[team=green] run execute as @e[tag=bingo_table_entry,tag=green] if entity @s[nbt={item:{id:"minecraft:' + item_en_ingame[i] + '"}}] run data merge entity @s {item:{id:"minecraft:carrot_on_a_stick",Count:1b}}\n\
+    execute if entity @s[team=yellow] run execute as @e[tag=bingo_table_entry,tag=yellow] if entity @s[nbt={item:{id:"minecraft:' + item_en_ingame[i] + '"}}] run data merge entity @s {item:{id:"minecraft:carrot_on_a_stick",Count:1b}}')
+

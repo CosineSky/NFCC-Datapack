@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:light_gray_wool",
+        "minecraft:white_terracotta",
+        "minecraft:end_stone",
+        "minecraft:ice",
+        "minecraft:water",
+        "minecraft:polished_deepslate",
+        "minecraft:ancient_debris",
+        "minecraft:red_bed",
+        "minecraft:blue_bed",
+        "minecraft:lime_bed",
+        "minecraft:yellow_bed"
+    ]
+}

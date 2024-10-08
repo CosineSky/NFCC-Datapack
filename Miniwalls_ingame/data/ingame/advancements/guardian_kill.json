@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "elder_guardian"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "ingame:rewards/guardian_kill"
+    }
+}

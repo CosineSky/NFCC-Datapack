@@ -1,0 +1,3 @@
+tellraw @a [{"text":"[","color":"white"},{"text":"⭐","color":"yellow"},{"text":"]"},{"text":" Successfully reloaded the datapack for hunger games.","color":"gray","italic":true}]
+# tellraw @a [{"text":"[","color":"white"},{"text":"☘","color":"yellow"},{"text":"]"},{"text":" BGM: ","color":"gray","italic":true},{"text":"Blockjitsu ","color":"white","italic":true},{"text":"From Hypixel Skyblock OST.","color":"gray","italic":true}]
+# tellraw @a {"text":"CLICK TO TURN OFF","color":"yellow","bold":true}

@@ -1,0 +1,1 @@
+execute as @e[tag=starting_spot,limit=1,sort=random] at @s unless entity @p[distance=..1,sort=nearest] run tp @a[limit=1,sort=random] @s

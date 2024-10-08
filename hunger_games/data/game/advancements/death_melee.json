@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "player"
+                },
+                "killing_blow": {
+                    "is_projectile": false
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:rewards/death_melee"
+    }
+}

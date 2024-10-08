@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "zombie",
+                    "nbt": "{Tags:[\"enter_game\",\"casual_pvp\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:rewards/enter_casual_pvp"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "chicken"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:gadgets/bat"
+    }
+}

@@ -1,0 +1,2 @@
+execute as @a[tag=!spec,gamemode=!spectator,scores={journey_level=3}] at @s run summon minecraft:marker ~ ~ ~ {Tags:["light_marker"]}
+execute as @a[tag=!spec,gamemode=!spectator,scores={journey_level=9}] at @s run summon minecraft:marker ~ ~ ~ {Tags:["light_marker"]}

@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "sheep"
+                },
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": ["blaze_rod"]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:rewards/absorb"
+    }
+}

@@ -1,0 +1,1 @@
+execute if entity @e[tag=bingo_item,tag=oak_trapdoor,scores={bingo_table=1..}] run function game:itemlist/acquire/confirm/easy/oak_trapdoor

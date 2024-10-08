@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": ["minecraft:iron_chestplate"]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:rewards/armor/iron"
+    }
+}

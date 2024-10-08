@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+        "ingame:dowhenload/addscoreboard",
+        "ingame:dowhenload/reloadmap/reloadmap"
+    ]
+}

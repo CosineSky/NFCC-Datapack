@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "nbt": "{ComboMaster:1}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:rewards/buff/combo_master"
+    }
+}

@@ -1,0 +1,1 @@
+execute if entity @e[tag=bingo_item,tag=lily_pad,scores={bingo_table=1..}] run function game:itemlist/acquire/confirm/medium/lily_pad

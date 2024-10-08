@@ -1,0 +1,1 @@
+execute if entity @e[tag=bingo_item,tag=dead_cube_coral_block,scores={bingo_table=1..}] run function game:itemlist/acquire/confirm/hard/dead_tube_coral_block

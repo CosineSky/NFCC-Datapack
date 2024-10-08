@@ -1,0 +1,105 @@
+EASY-POOL
+1. Rotten Flesh
+2. Bone
+3. String
+4. Clay Ball
+5. Flint
+6. Leather
+7. Charcoal
+8. Glass Bottle
+9. Dandelion
+10. Poppy
+11. Cut Sandstone
+12. Arrow
+13. Spider Eye
+14. Oak Trapdoor
+15. Stone Hoe
+16. Tripwire Hook
+17. Composter
+18. Item Frame
+19. Painting
+20. Campfire
+21. Smoker
+22. Barrel
+23. Cobbled Deepslate
+24. Cooked Porkchop
+25. Raw Mutton -> mutton
+26. Seed -> wheat_seeds
+27. Paper
+28. Lightning Rod
+29. Ink Sack -> ink_sac
+30. Gunpowder
+31. Stone Bricks
+32. Feather
+33. Birch Boat
+34. Bowl
+35. Wooden Shovel
+36. Flint and Steel
+37. Shears
+38. Fishing Rod
+39. Magenta Dye
+40. Raw Gold
+
+MEDIUM-POOL
+1. Lime Dye
+2. Copper Block
+3. Iron Block
+4. Hopper
+5. Redstone Torch
+6. Golden Boots
+7. Leather Helmet
+8. Crossbow
+9. Leather Horse Armor
+10. Bow
+11. Carrot
+12. Potato
+13. Melon Slice
+14. Glow Berries
+15. Raw Salmon
+16. Kelp Block -> dried_kelp_block
+17. Lectern
+18. Rail
+19. Piston
+20. Birch Fence Gate
+21. Acacia Plank
+22. Noteblock -> note_block
+23. Cauldron
+24. Lapis Lazuli
+25. Lily Pad
+26. Rose Bush
+27. Smithing Table
+28. Chain
+29. Redstone Repeater -> repeater
+30. Dropper
+31. Raw Rabbit -> rabbit
+32. Milk Bucket
+33. Iron Axe
+34. Iron Pickaxe
+35. Golden Sword
+36. Glass Pane
+37. White Bed
+38. White Banner
+39. Bucket of Cod -> cod_bucket
+40. Bookshelf
+
+HARD-POOL
+1. Cookie
+2. Golden Apple
+3. Redstone Lamp
+4. Sticky Piston
+5. Candle
+6. Emerald
+7. Pumpkin Pie
+8. Grass Block
+9. Magma Block
+10. Dead Cube Coral Block
+11. Prismarine
+12. Target
+13. Enchanting Table
+14. Daylight Sensor -> daylight_detector
+15. Tropical Fish
+16. Amethyst Shard
+17. Fermented Spider Eye
+18. Diamond Hoe
+19. Name Tag
+20. Blaze Powder

@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+        "custom:readyctrl",
+        "custom:ingamep_tick"
+    ]
+}

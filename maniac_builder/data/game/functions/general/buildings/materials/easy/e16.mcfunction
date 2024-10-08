@@ -1,0 +1,1 @@
+give @a minecraft:gold_block{CanPlaceOn:["#minecraft:placable"]} 64

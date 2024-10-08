@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": ["tnt"]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:rewards/spread"
+    }
+}

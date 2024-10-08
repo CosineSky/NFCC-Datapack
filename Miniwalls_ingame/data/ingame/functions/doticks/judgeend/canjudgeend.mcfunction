@@ -1,0 +1,1 @@
+scoreboard players set CANJUDGEEND data 1

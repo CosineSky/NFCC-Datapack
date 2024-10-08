@@ -1,0 +1,25 @@
+execute positioned 2060 95 985 run fill ~ ~ ~ ~6 ~6 ~6 minecraft:air
+execute positioned 2035 95 1010 run fill ~ ~ ~ ~6 ~6 ~6 minecraft:air
+execute positioned 2010 95 1035 run fill ~ ~ ~ ~6 ~6 ~6 minecraft:air
+execute positioned 1985 95 1060 run fill ~ ~ ~ ~6 ~6 ~6 minecraft:air
+execute positioned 2010 95 1085 run fill ~ ~ ~ ~6 ~6 ~6 minecraft:air
+execute positioned 2035 95 1110 run fill ~ ~ ~ ~6 ~6 ~6 minecraft:air
+execute positioned 2060 95 1135 run fill ~ ~ ~ ~6 ~6 ~6 minecraft:air
+execute positioned 2085 95 1110 run fill ~ ~ ~ ~6 ~6 ~6 minecraft:air
+execute positioned 2110 95 1085 run fill ~ ~ ~ ~6 ~6 ~6 minecraft:air
+execute positioned 2135 95 1060 run fill ~ ~ ~ ~6 ~6 ~6 minecraft:air
+execute positioned 2110 95 1035 run fill ~ ~ ~ ~6 ~6 ~6 minecraft:air
+execute positioned 2085 95 1010 run fill ~ ~ ~ ~6 ~6 ~6 minecraft:air
+
+execute positioned 2060 94 985 run fill ~ ~ ~ ~6 ~ ~6 minecraft:purple_concrete
+execute positioned 2035 94 1010 run fill ~ ~ ~ ~6 ~ ~6 minecraft:purple_concrete
+execute positioned 2010 94 1035 run fill ~ ~ ~ ~6 ~ ~6 minecraft:purple_concrete
+execute positioned 1985 94 1060 run fill ~ ~ ~ ~6 ~ ~6 minecraft:purple_concrete
+execute positioned 2010 94 1085 run fill ~ ~ ~ ~6 ~ ~6 minecraft:purple_concrete
+execute positioned 2035 94 1110 run fill ~ ~ ~ ~6 ~ ~6 minecraft:purple_concrete
+execute positioned 2060 94 1135 run fill ~ ~ ~ ~6 ~ ~6 minecraft:purple_concrete
+execute positioned 2085 94 1110 run fill ~ ~ ~ ~6 ~ ~6 minecraft:purple_concrete
+execute positioned 2110 94 1085 run fill ~ ~ ~ ~6 ~ ~6 minecraft:purple_concrete
+execute positioned 2135 94 1060 run fill ~ ~ ~ ~6 ~ ~6 minecraft:purple_concrete
+execute positioned 2110 94 1035 run fill ~ ~ ~ ~6 ~ ~6 minecraft:purple_concrete
+execute positioned 2085 94 1010 run fill ~ ~ ~ ~6 ~ ~6 minecraft:purple_concrete

@@ -1,0 +1,1 @@
+give @a minecraft:yellow_terracotta{CanPlaceOn:["#minecraft:placable"]} 64

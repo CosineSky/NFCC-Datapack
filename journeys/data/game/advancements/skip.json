@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:honey_bottle"
+                    ]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:checkpoints/skip"
+    }
+}

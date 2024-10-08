@@ -1,0 +1,1 @@
+tellraw @a [{"text":"[","color":"white"},{"text":"⭐","color":"yellow"},{"text":"]"},{"text":" Successfully reloaded the datapack for journeys.","color":"gray","italic":true}]

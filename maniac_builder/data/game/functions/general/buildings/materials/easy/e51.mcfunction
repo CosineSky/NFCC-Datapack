@@ -1,0 +1,1 @@
+give @a minecraft:smooth_quartz_stairs{CanPlaceOn:["#minecraft:placable"]} 64

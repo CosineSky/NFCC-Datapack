@@ -1,0 +1,1 @@
+execute if entity @e[tag=bingo_item,tag=cobbled_deepslate,scores={bingo_table=1..}] run function game:itemlist/acquire/confirm/easy/cobbled_deepslate

@@ -1,0 +1,4 @@
+summon firework_rocket -1959 12 -56 {LifeTime:30,FireworksItem:{id:"firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Trail:1,Colors:[I;63487],FadeColors:[I;40447]}],Flight:1}}}}
+summon firework_rocket -1959 12 -25 {LifeTime:30,FireworksItem:{id:"firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Trail:1,Colors:[I;63487],FadeColors:[I;40447]}],Flight:1}}}}
+summon firework_rocket -1970 12 -25 {LifeTime:30,FireworksItem:{id:"firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Trail:1,Colors:[I;63487],FadeColors:[I;40447]}],Flight:1}}}}
+summon firework_rocket -1970 12 -56 {LifeTime:30,FireworksItem:{id:"firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Trail:1,Colors:[I;63487],FadeColors:[I;40447]}],Flight:1}}}}

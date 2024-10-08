@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "source_entity": {
+                            "type": "player"
+                        },
+                        "direct_entity": {
+                            "type": "player"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:rewards/hurt_melee"
+    }
+}

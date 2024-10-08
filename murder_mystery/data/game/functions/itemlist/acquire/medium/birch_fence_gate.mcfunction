@@ -1,0 +1,1 @@
+execute if entity @e[tag=bingo_item,tag=birch_fence_gate,scores={bingo_table=1..}] run function game:itemlist/acquire/confirm/medium/birch_fence_gate

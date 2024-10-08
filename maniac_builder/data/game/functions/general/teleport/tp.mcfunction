@@ -1,0 +1,12 @@
+execute as @e[tag=starting_spot_mb,tag=spot_1] at @s run tp @a[tag=spot_1,gamemode=adventure] @s
+execute as @e[tag=starting_spot_mb,tag=spot_2] at @s run tp @a[tag=spot_2,gamemode=adventure] @s
+execute as @e[tag=starting_spot_mb,tag=spot_3] at @s run tp @a[tag=spot_3,gamemode=adventure] @s
+execute as @e[tag=starting_spot_mb,tag=spot_4] at @s run tp @a[tag=spot_4,gamemode=adventure] @s
+execute as @e[tag=starting_spot_mb,tag=spot_5] at @s run tp @a[tag=spot_5,gamemode=adventure] @s
+execute as @e[tag=starting_spot_mb,tag=spot_6] at @s run tp @a[tag=spot_6,gamemode=adventure] @s
+execute as @e[tag=starting_spot_mb,tag=spot_7] at @s run tp @a[tag=spot_7,gamemode=adventure] @s
+execute as @e[tag=starting_spot_mb,tag=spot_8] at @s run tp @a[tag=spot_8,gamemode=adventure] @s
+execute as @e[tag=starting_spot_mb,tag=spot_9] at @s run tp @a[tag=spot_9,gamemode=adventure] @s
+execute as @e[tag=starting_spot_mb,tag=spot_10] at @s run tp @a[tag=spot_10,gamemode=adventure] @s
+execute as @e[tag=starting_spot_mb,tag=spot_11] at @s run tp @a[tag=spot_11,gamemode=adventure] @s
+execute as @e[tag=starting_spot_mb,tag=spot_12] at @s run tp @a[tag=spot_12,gamemode=adventure] @s

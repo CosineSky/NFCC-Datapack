@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "nbt": "{LegionCommander:1}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:rewards/buff/legion_commander"
+    }
+}

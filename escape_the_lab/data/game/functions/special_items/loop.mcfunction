@@ -1,0 +1,2 @@
+function game:special_items/pickup
+function game:special_items/display

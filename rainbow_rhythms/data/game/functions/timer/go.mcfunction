@@ -1,0 +1,1 @@
+function game:general/start_game

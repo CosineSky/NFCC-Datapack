@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "player",
+                    "equipment": {
+                        "head": {
+                            "items": ["white_wool"]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:rewards/absorber_kill"
+    }
+}

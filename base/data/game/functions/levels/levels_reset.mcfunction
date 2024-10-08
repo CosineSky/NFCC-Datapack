@@ -1,0 +1,15 @@
+team empty lv1
+team empty lv2
+team empty lv3
+team empty lv4
+team empty lv5
+team empty lv6
+team empty lv7
+team empty lv8
+team empty lv9
+team empty lv10
+team empty lv11
+team empty lv12
+team empty lv13
+team empty lv14
+team empty lv15

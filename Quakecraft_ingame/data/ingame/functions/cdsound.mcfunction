@@ -1,0 +1,1 @@
+execute as @a[scores={shootingCD=1}] at @s run playsound block.note_block.pling player @s ~ ~ ~ 1 2

@@ -1,0 +1,3 @@
+execute if score CANJUDGEEND data matches 1 if score DECREASEGUARDIANSHEALTH data matches 0 run execute as @e[tag=miniwallsguardian] run damage @s 5 minecraft:magic
+execute if score CANJUDGEEND data matches 1 if score DECREASEGUARDIANSHEALTH data matches 0 run scoreboard players set DECREASEGUARDIANSHEALTH data 80
+execute if score CANJUDGEEND data matches 1 if score DECREASEGUARDIANSHEALTH data matches 1.. run scoreboard players remove DECREASEGUARDIANSHEALTH data 1

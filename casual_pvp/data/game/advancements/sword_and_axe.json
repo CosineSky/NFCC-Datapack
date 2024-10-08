@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "zombie",
+                    "nbt": "{Tags:[\"sword_and_axe\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:rewards/sword_and_axe"
+    }
+}

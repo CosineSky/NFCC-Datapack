@@ -1,0 +1,1 @@
+execute in multi:bingo run tp @a @e[tag=bingo_center,limit=1]

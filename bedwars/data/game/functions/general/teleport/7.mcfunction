@@ -1,0 +1,1 @@
+tag @r[tag=!red,tag=!blue,tag=!green,tag=!yellow,tag=!spec,limit=1] add green

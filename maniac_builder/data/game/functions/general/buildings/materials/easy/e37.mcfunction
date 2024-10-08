@@ -1,0 +1,1 @@
+give @a minecraft:red_concrete{CanPlaceOn:["#minecraft:placable"]} 64

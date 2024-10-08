@@ -1,0 +1,4 @@
+execute as @e[tag=blueguardian] at @s if entity @a[gamemode=!spectator,tag=!spec,team=!MWblue,distance=..10] run tp @s ~ ~ ~ facing entity @a[gamemode=!spectator,tag=!spec,team=!MWblue,sort=nearest,limit=1]
+execute as @e[tag=yellowguardian] at @s if entity @a[gamemode=!spectator,tag=!spec,team=!MWyellow,distance=..10] run tp @s ~ ~ ~ facing entity @a[gamemode=!spectator,tag=!spec,team=!MWyellow,sort=nearest,limit=1]
+execute as @e[tag=greenguardian] at @s if entity @a[gamemode=!spectator,tag=!spec,team=!MWgreen,distance=..10] run tp @s ~ ~ ~ facing entity @a[gamemode=!spectator,tag=!spec,team=!MWgreen,sort=nearest,limit=1]
+execute as @e[tag=redguardian] at @s if entity @a[gamemode=!spectator,tag=!spec,team=!MWred,distance=..10] run tp @s ~ ~ ~ facing entity @a[gamemode=!spectator,tag=!spec,team=!MWred,sort=nearest,limit=1]

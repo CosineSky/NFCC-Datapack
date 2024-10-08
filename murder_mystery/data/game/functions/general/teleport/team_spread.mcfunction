@@ -1,0 +1,1 @@
+execute as @e[tag=bingo_center,limit=1] at @s run spreadplayers ~ ~ 200 300 under 256 true @a[gamemode=!adventure]

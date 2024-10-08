@@ -1,0 +1,1 @@
+execute if score CANJUDGEEND data matches 1 if score MWHAVEEND data matches 0 run function ingame:doticks/judgeend/judgeend

@@ -1,0 +1,1 @@
+execute if entity @e[tag=bingo_item,tag=item_frame,scores={bingo_table=1..}] run function game:itemlist/acquire/confirm/easy/item_frame

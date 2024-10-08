@@ -1,0 +1,1 @@
+execute as @e[nbt={AbsorptionAmount:0.1f}] run data merge entity @s {CustomName:'[{"text":"1","color":"red","bold":true}]'}

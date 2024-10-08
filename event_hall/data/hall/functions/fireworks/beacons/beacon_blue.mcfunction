@@ -1,0 +1,21 @@
+setblock -1942 28 -18 minecraft:beacon
+setblock -1956 28 -10 minecraft:beacon
+setblock -1973 28 -10 minecraft:beacon
+setblock -1987 28 -18 minecraft:beacon
+setblock -1995 28 -32 minecraft:beacon
+setblock -1995 28 -49 minecraft:beacon
+setblock -1987 28 -63 minecraft:beacon
+setblock -1973 28 -71 minecraft:beacon
+setblock -1956 28 -71 minecraft:beacon
+setblock -1942 28 -63 minecraft:beacon
+
+setblock -1942 29 -18 minecraft:light_blue_stained_glass_pane
+setblock -1956 29 -10 minecraft:light_blue_stained_glass_pane
+setblock -1973 29 -10 minecraft:light_blue_stained_glass_pane
+setblock -1987 29 -18 minecraft:light_blue_stained_glass_pane
+setblock -1995 29 -32 minecraft:light_blue_stained_glass_pane
+setblock -1995 29 -49 minecraft:light_blue_stained_glass_pane
+setblock -1987 29 -63 minecraft:light_blue_stained_glass_pane
+setblock -1973 29 -71 minecraft:light_blue_stained_glass_pane
+setblock -1956 29 -71 minecraft:light_blue_stained_glass_pane
+setblock -1942 29 -63 minecraft:light_blue_stained_glass_pane

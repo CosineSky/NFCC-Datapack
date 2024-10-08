@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "player"
+                },
+                "killing_blow": {
+                    "is_projectile": true
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:rewards/death_range"
+    }
+}

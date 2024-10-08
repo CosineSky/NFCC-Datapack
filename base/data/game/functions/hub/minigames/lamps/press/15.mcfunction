@@ -1,0 +1,3 @@
+function game:hub/minigames/lamps/switch/14
+function game:hub/minigames/lamps/switch/15
+function game:hub/minigames/lamps/switch/25

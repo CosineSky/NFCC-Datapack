@@ -1,0 +1,225 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:match_tool",
+                                    "predicate": {
+                                        "items": [
+                                            "minecraft:shears"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "name": "minecraft:grass"
+                        },
+                        {
+                            "type": "minecraft:item",
+                                "conditions": [
+                                    {
+                                        "chance": 0.1875,
+                                        "condition": "minecraft:random_chance"
+                                    }
+                                ],
+                            "functions": [
+                                {
+                                    "enchantment": "minecraft:fortune",
+                                    "formula": "minecraft:uniform_bonus_count",
+                                    "function": "minecraft:apply_bonus",
+                                    "parameters": {
+                                        "bonusMultiplier": 2
+                                    }
+                                }
+                            ],
+                            "name": "minecraft:wheat_seeds"
+                        },
+                        {
+                            "type": "minecraft:item",
+                                "conditions": [
+                                    {
+                                        "chance": 0.0625,
+                                        "condition": "minecraft:random_chance"
+                                    },
+                                    {
+                                        "condition": "minecraft:alternative",
+                                        "terms": [
+                                            {
+                                                "condition": "minecraft:location_check",
+                                                "predicate": {
+                                                    "biome": "minecraft:plains"
+                                                }
+                                            },
+                                            {
+                                                "condition": "minecraft:location_check",
+                                                "predicate": {
+                                                    "biome": "minecraft:savanna"
+                                                }
+                                            },
+                                            {
+                                                "condition": "minecraft:location_check",
+                                                "predicate": {
+                                                    "biome": "minecraft:forest"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                            "functions": [
+                                {
+                                    "enchantment": "minecraft:fortune",
+                                    "formula": "minecraft:uniform_bonus_count",
+                                    "function": "minecraft:apply_bonus",
+                                    "parameters": {
+                                        "bonusMultiplier": 2
+                                    }
+                                }
+                            ],
+                            "name": "minecraft:potato"
+                        },
+                        {
+                            "type": "minecraft:item",
+                                "conditions": [
+                                    {
+                                        "chance": 0.0625,
+                                        "condition": "minecraft:random_chance"
+                                    },
+                                    {
+                                        "condition": "minecraft:alternative",
+                                        "terms": [
+                                            {
+                                                "condition": "minecraft:location_check",
+                                                "predicate": {
+                                                    "biome": "minecraft:plains"
+                                                }
+                                            },
+                                            {
+                                                "condition": "minecraft:location_check",
+                                                "predicate": {
+                                                    "biome": "minecraft:savanna"
+                                                }
+                                            },
+                                            {
+                                                "condition": "minecraft:location_check",
+                                                "predicate": {
+                                                    "biome": "minecraft:forest"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                            "functions": [
+                                {
+                                    "enchantment": "minecraft:fortune",
+                                    "formula": "minecraft:uniform_bonus_count",
+                                    "function": "minecraft:apply_bonus",
+                                    "parameters": {
+                                        "bonusMultiplier": 2
+                                    }
+                                }
+                            ],
+                            "name": "minecraft:carrot"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:random_chance",
+                                    "chance": 0.0625
+                                },
+                                {
+                                    "condition": "minecraft:alternative",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:snow_plains"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:snow_taiga"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:snow_beach"
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:location_check",
+                                            "predicate": {
+                                                "biome": "minecraft:snow_slopes"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "functions": [
+                                {
+                                    "enchantment": "minecraft:fortune",
+                                    "formula": "minecraft:uniform_bonus_count",
+                                    "function": "minecraft:apply_bonus",
+                                    "parameters": {
+                                        "bonusMultiplier": 2
+                                    }
+                                }
+                            ],
+                            "name": "minecraft:beetroot_seeds"
+                        },
+                        {
+                            "type": "minecraft:item",
+                                "conditions": [
+                                    {
+                                        "chance": 0.0625,
+                                        "condition": "minecraft:random_chance"
+                                    }
+                                ],
+                            "functions": [
+                                {
+                                    "enchantment": "minecraft:fortune",
+                                    "formula": "minecraft:uniform_bonus_count",
+                                    "function": "minecraft:apply_bonus",
+                                    "parameters": {
+                                        "bonusMultiplier": 2
+                                    }
+                                }
+                            ],
+                            "name": "minecraft:melon_seeds"
+                        },
+                        {
+                            "type": "minecraft:item",
+                                "conditions": [
+                                    {
+                                        "chance": 0.0625,
+                                        "condition": "minecraft:random_chance"
+                                    }
+                                ],
+                            "functions": [
+                                {
+                                    "enchantment": "minecraft:fortune",
+                                    "formula": "minecraft:uniform_bonus_count",
+                                    "function": "minecraft:apply_bonus",
+                                    "parameters": {
+                                        "bonusMultiplier": 2
+                                    }
+                                }
+                            ],
+                            "name": "minecraft:pumpkin_seeds"
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1.0
+        }
+    ]
+}

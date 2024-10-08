@@ -1,0 +1,2 @@
+execute as @a[nbt={Inventory:[{id:"minecraft:golden_boots",Slot:100b}]}] at @s if block ~ ~-1 ~ lava run function test:property/lava_plus
+execute as @e[type=marker,tag=lava_mover] at @s unless entity @a[nbt={Inventory:[{id:"minecraft:golden_boots",Slot:100b}]},distance=..2] run setblock ~ ~-1 ~ lava replace

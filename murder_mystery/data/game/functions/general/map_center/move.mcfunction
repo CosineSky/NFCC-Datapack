@@ -1,0 +1,1 @@
+execute as @e[tag=bingo_center,limit=1] at @s run tp @s ~10000 ~ ~

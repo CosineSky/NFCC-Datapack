@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "item": "minecraft:player_head",
+		  "nbt": "{IsBlessingOrb:1}"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:player"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+    "rewards": {
+        "function": "game:orbs/blessing_orb/check"
+    }
+}

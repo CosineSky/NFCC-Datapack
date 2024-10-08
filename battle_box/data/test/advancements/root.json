@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "button":{
+            "trigger":"minecraft:item_used_on_block",
+            "conditions":{
+                "location": {
+                    "block":{
+                        "blocks":["crimson_button","warped_button"]
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "item": "minecraft:oak_button"
+        },
+        "title": "",
+        "description": "",
+        "announce_to_chat": false,
+        "show_toast": false
+    }
+}

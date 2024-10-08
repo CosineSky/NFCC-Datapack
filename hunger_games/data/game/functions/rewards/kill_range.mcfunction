@@ -1,0 +1,2 @@
+execute at @s run summon firework_rocket ~ ~2 ~ {LifeTime:20,FireworksItem:{id:"firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:0,Trail:1,Colors:[I;16714507],FadeColors:[I;16776960]}],Flight:1}}}}
+advancement revoke @s only game:kill_range

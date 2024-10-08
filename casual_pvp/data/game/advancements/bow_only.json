@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "zombie",
+                    "nbt": "{Tags:[\"bow_only\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "game:rewards/bow_only"
+    }
+}

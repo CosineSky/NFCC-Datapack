@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "biome_source": {
+      "biome": "minecraft:jungle",
+      "type": "minecraft:fixed"
+    },
+    "seed": 130113011301,
+    "settings": {
+      "structures": {
+        "structures": {}
+      },
+      "layers": [
+        {
+          "block": "minecraft:air",
+          "height": 1
+        }
+      ],
+      "biome": "minecraft:jungle"
+    },
+    "type": "minecraft:flat"
+  }
+}
